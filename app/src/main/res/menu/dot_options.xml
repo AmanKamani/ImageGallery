@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/shape">
+        <item android:id="@+id/_shapes" android:title="Display Style">
+            <menu>
+            <item android:id="@+id/_round" android:title="Rounded"></item>
+            <item android:id="@+id/_rect" android:title="Rectangle"></item>
+            </menu>
+        </item>
+    </group>
+    <group android:id="@+id/theme">
+        <item android:id="@+id/_theme" android:title="Theme">
+            <menu>
+            <item android:id="@+id/_dark" android:title="Dark"></item>
+            <item android:id="@+id/_light" android:title="Light"></item>
+            </menu>
+        </item>
+    </group>
+</menu>

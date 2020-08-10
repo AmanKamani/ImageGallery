@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5px"
+    android:gravity="center_vertical"
+    android:id="@+id/folder_layout">
+
+    <ImageView
+        android:id="@+id/folder_imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="5px"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/folder_textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Boo"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="10px"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:ellipsize="end" />
+
+    <TextView
+        android:id="@+id/folder_tv_no"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="15px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11"
+        android:textSize="15sp" />
+
+</LinearLayout>
